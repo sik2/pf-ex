@@ -79,4 +79,4 @@ GitHub 예약 실행은 부하에 따라 지연될 수 있으며 정확한 시�
 - https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
 - https://developers.openai.com/api/docs/guides/text
 
-기본 수집본의 한국어 번역은 `data/translations.ko.json`에서 관리합니다. 이후 새 뉴스의 자동 번역은 위 API 설정이 필요합니다. 키가 없으면 새 글은 원문으로 표시되며, 각 글의 한국어로 원문 읽기 링크에서 Google 번역을 이용할 수 있습니다.
+기본 수집본의 한국어 번역은 `data/translations.ko.json`에서 관리합니다. 이후 새 뉴스의 자동 번역은 위 API 설정이 필요합니다. 키가 없으면 새 글은 원문으로 표시됩니다. 한국어 요약 보기 버튼은 사이트 안에서 요약을 엽니다. 기사 전체 번역은 제공하지 않으며, 원문은 별도 링크로 연결합니다.
