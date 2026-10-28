@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T07:11:44.570748+00:00",
+  "max_age_hours": 72,
+  "items": [
+    {
+      "id": "b98b75e5e3efe8c1",
+      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+      "url": "https://blog.cloudflare.com/php-ctf/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-10-27T13:00:00+00:00",
+      "excerpt": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+      "summary": "",
+      "summary_kind": "source_excerpt"
+    },
+    {
+      "id": "f21bc890ebec1e8c",
+      "title": "What took the Internet offline in Q3 2026",
+      "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-10-27T13:00:00+00:00",
+      "excerpt": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
+      "summary": "",
+      "summary_kind": "source_excerpt"
+    },
+    {
+      "id": "e77549dba84aa9c3",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-10-26T22:01:23+00:00",
+      "excerpt": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+      "summary": "",
+      "summary_kind": "source_excerpt"
+    },
+    {
+      "id": "b1d7eb2dedce5839",
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-10-26T16:00:00+00:00",
+      "excerpt": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
+      "summary": "",
+      "summary_kind": "source_excerpt"
+    }
+  ]
+}

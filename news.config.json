@@ -1,0 +1,10 @@
+{
+  "max_age_hours": 72,
+  "max_items": 12,
+  "archive_days": 30,
+  "sources": [
+    {"name": "GitHub Blog", "url": "https://github.blog/feed/", "category": "개발"},
+    {"name": "Cloudflare Blog", "url": "https://blog.cloudflare.com/rss/", "category": "인프라"},
+    {"name": "Google AI Blog", "url": "https://blog.google/innovation-and-ai/technology/ai/rss/", "category": "AI"}
+  ]
+}

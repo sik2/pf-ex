@@ -1,0 +1,94 @@
+name: Daily news and site deployment
+
+on:
+  schedule:
+    - cron: '17 22 * * *' # 07:17 Asia/Seoul, next day
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: portfolio-deployment
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    outputs:
+      collection: ${{ steps.collect.outcome }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify collector and browser scripts
+        run: |
+          python -m unittest discover -s tests -v
+          node --check app.js
+          node --check content.js
+          node --check news.js
+      - name: Collect current news
+        id: collect
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+        run: python scripts/collect_news.py
+      - name: Record daily editions
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/news
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update daily news'
+            git push
+          fi
+      - name: Build public assets
+        run: python scripts/build_site.py
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Collection report
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          status = json.loads(Path('data/news/status.json').read_text())
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as report:
+              report.write('## News collection\n\n')
+              report.write('Previous edition retained.\n' if not status['ok'] else 'News collected successfully.\n')
+              for source in status['sources']:
+                  report.write(f"- {source['name']}: {'OK' if source['ok'] else 'FAILED'} ({source['count']} recent items)\n")
+              for warning in status.get('warnings', []):
+                  report.write(f'- {warning}\n')
+          PY
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Deploy site
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Report collection failure after restoring last edition
+        if: needs.build.outputs.collection == 'failure'
+        run: |
+          echo 'News collection failed. Previous news was redeployed. See the build summary.'
+          exit 1
