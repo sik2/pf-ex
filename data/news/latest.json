@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "generated_at": "2026-10-28T07:21:37.206301+00:00",
+  "generated_at": "2026-10-28T07:23:45.081817+00:00",
   "max_age_hours": 72,
   "items": [
     {
@@ -47,9 +47,9 @@
       "category": "AI",
       "published_at": "2026-10-26T16:00:00+00:00",
       "excerpt": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
-      "summary": "",
-      "summary_kind": "translated",
-      "title_ko": "새로운 AI Quest: 인간의 뇌 지도 만들기"
+      "summary": "발췌문에는 행성을 회전시키며 여러 만화 인물들이 손을 흔드는 삽화가 보이고, 상단에 \"AI Quests\"라는 문구가 있다.",
+      "summary_kind": "ai",
+      "title_ko": "우리의 최신 AI 퀘스트: 인간 두뇌 매핑"
     }
   ]
 }
