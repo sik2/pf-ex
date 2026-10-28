@@ -41,7 +41,7 @@ npm run build
 npm run dev
 ```
 
-파이썬 3.10 이상과 Node.js가 필요합니다. 패키지 설치는 필요하지 않습니다. 수집은 인터넷 연결이 필요하며, 정적 파일 미리보기는 `http://127.0.0.1:4173`에서 볼 수 있습니다. UI의 뉴스 조회는 HTTP 서버로 실행해야 합니다.
+파이썬 3.10 이상과 Node.js가 필요합니다. 본문 추출용 의존성은 `python3 -m pip install -r requirements.txt`로 설치합니다. 수집은 인터넷 연결이 필요하며, 정적 파일 미리보기는 `http://127.0.0.1:4173`에서 볼 수 있습니다. UI의 뉴스 조회는 HTTP 서버로 실행해야 합니다.
 
 ### 수정할 파일
 
@@ -79,4 +79,19 @@ GitHub 예약 실행은 부하에 따라 지연될 수 있으며 정확한 시�
 - https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
 - https://developers.openai.com/api/docs/guides/text
 
-기본 수집본의 한국어 번역은 `data/translations.ko.json`에서 관리합니다. 이후 새 뉴스의 자동 번역은 위 API 설정이 필요합니다. 키가 없으면 새 글은 원문으로 표시됩니다. 한국어 요약 보기 버튼은 사이트 안에서 요약을 엽니다. 기사 전체 번역은 제공하지 않으며, 원문은 별도 링크로 연결합니다.
+기본 수집본의 한국어 번역은 `data/translations.ko.json`에서 관리합니다. 이후 새 뉴스의 자동 번역은 위 API 설정이 필요합니다. 키가 없으면 새 글은 원문으로 표시됩니다. 한국어로 전체 읽기 버튼은 사이트 안에서 원문 본문의 한국어 번역을 엽니다. 이미지와 영상은 원문 링크에서 확인합니다.
+
+
+## 기사 전체 한국어 번역
+
+예약 작업은 뉴스 수집 후 `scripts/translate_articles.py`를 실행합니다. 원문 페이지에서 메뉴·광고·댓글을 제외한 기사 본문 텍스트를 추출하고, 모든 문단을 순서대로 한국어로 번역합니다. 표와 코드의 텍스트도 가능한 범위에서 보존하며 이미지·영상과 원문의 화면 배치는 복제하지 않습니다.
+
+- `data/articles/<기사ID>.json`: 전체 본문 번역, 출처, 번역 시각, 문단 수
+- `data/articles/status.json`: 기사별 성공 여부와 캐시 사용 여부
+- 원문 본문이 같으면 기존 번역을 재사용합니다.
+- 응답이 중단되거나 문단 수·순서가 맞지 않으면 완료본으로 게시하지 않습니다.
+- 본문을 가져오지 못하거나 번역이 실패하면 화면에 준비되지 않았음을 표시하며 요약으로 대체하지 않습니다.
+- 본문이 12만 자를 넘으면 부분 번역을 전체 번역으로 게시하지 않고 실패로 기록합니다.
+- 전체 본문 번역은 짧은 요약보다 API 사용량이 많습니다.
+
+수동 실행은 `python3 scripts/translate_articles.py`이며, 실행 환경에 `OPENAI_API_KEY`와 `OPENAI_MODEL`이 설정되어 있어야 합니다. 키는 GitHub Actions Secrets로만 전달하고 저장소 파일에 기록하지 않습니다.

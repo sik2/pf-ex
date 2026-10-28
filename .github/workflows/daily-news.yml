@@ -17,11 +17,12 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     permissions:
       contents: write
     outputs:
       collection: ${{ steps.collect.outcome }}
+      translation: ${{ steps.articles.outcome }}
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v5
@@ -30,6 +31,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Install article extraction dependencies
+        run: pip install -r requirements.txt
       - name: Verify collector and browser scripts
         run: |
           python -m unittest discover -s tests -v
@@ -43,11 +46,18 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
         run: python scripts/collect_news.py
+      - name: Translate full article text
+        id: articles
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+        run: python scripts/translate_articles.py
       - name: Record daily editions
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/news
+          git add data/news data/articles
           if ! git diff --cached --quiet; then
             git commit -m 'Update daily news'
             git push
@@ -88,7 +98,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       - name: Report collection failure after restoring last edition
-        if: needs.build.outputs.collection == 'failure'
+        if: needs.build.outputs.collection == 'failure' || needs.build.outputs.translation == 'failure'
         run: |
-          echo 'News collection failed. Previous news was redeployed. See the build summary.'
+          echo 'News collection or full translation failed. See data/articles/status.json and the build summary.'
           exit 1

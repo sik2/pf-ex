@@ -21,19 +21,39 @@
    const summary=element('p','',item.summary||(item.title_ko?'원문에서 자세한 내용을 확인하세요.':item.excerpt)||'원문에서 자세한 내용을 확인하세요.');
    const kind=element('span','news-kind',item.summary_kind==='ai'?'한국어 AI 요약 · RSS 기준':item.summary_kind==='translated'?'한국어 번역 · RSS 기준':'출처 제공 내용 발췌');
    const source=element('a','news-source-link','원문 읽기 ↗');source.href=url;source.target='_blank';source.rel='noopener noreferrer';
-   const translated=element('button','news-source-link news-translate','한국어 요약 보기');translated.type='button';
-   translated.addEventListener('click',()=>{
-    openDetail('NEWS / 한국어 요약',item.title_ko||item.title,[
-     {title:'출처와 발행 시각',text:`${item.source} · ${format(item.published_at)} KST`},
-     {title:'한국어 요약',text:item.summary||'이 글에는 한국어 요약이 아직 없습니다. 원문을 확인해 주세요.'},
-     {title:'안내',text:'RSS 제공 내용을 바탕으로 정리한 요약입니다. 기사 전체 번역은 제공하지 않습니다.'}
-    ]);
-    const original=element('a','news-source-link','원문 사이트에서 읽기 ↗');original.href=url;original.target='_blank';original.rel='noopener noreferrer';document.querySelector('#detail-body').append(original);
-   });
+   const translated=element('button','news-source-link news-translate','한국어로 전체 읽기');translated.type='button';
+   translated.addEventListener('click',()=>openArticle(item,url));
    article.append(meta,heading,summary,kind,element('br'),source,translated);list.append(article);
   }
   if(!list.children.length)list.append(element('p','news-empty','해당 날짜에 표시할 뉴스가 없습니다.'));
   updated.textContent=`수집 시각 ${format(edition.generated_at)} KST`;
+ }
+ let readerRequest=0;
+ document.querySelector('#detail').addEventListener('close',()=>{readerRequest++});
+ async function openArticle(item,url){
+  openDetail('NEWS / 한국어 전체 번역',item.title_ko||item.title,[{title:'본문 번역',text:'한국어 본문을 불러오는 중입니다.'}]);
+  const request=++readerRequest;
+  const body=document.querySelector('#detail-body');
+  try{
+   if(!/^[a-f0-9]{16}$/.test(item.id))throw Error('Invalid article ID');
+   const response=await fetch(`data/articles/${item.id}.json`,{cache:'no-cache'});
+   if(!response.ok)throw Error('Article unavailable');
+   const article=await response.json();
+   if(article.status!=='ready'||!Array.isArray(article.paragraphs)||article.paragraphs.length!==article.paragraph_count||!article.paragraphs.length)throw Error('Incomplete article');
+   if(request!==readerRequest||!document.querySelector('#detail').open)return;
+   body.replaceChildren(element('h2','',article.title||item.title_ko||item.title));
+   body.append(element('p','reader-meta',`${item.source} · ${format(item.published_at)} KST`));
+   const original=element('a','news-source-link','원문 사이트에서 읽기 ↗');original.href=url;original.target='_blank';original.rel='noopener noreferrer';body.append(original);
+   body.append(element('p','reader-notice','원문에서 추출한 본문 텍스트의 전체 AI 번역입니다. 이미지와 영상은 원문에서 확인해 주세요.'));
+   const text=element('div','article-reader');
+   for(const paragraph of article.paragraphs){if(typeof paragraph!=='string')throw Error('Invalid paragraph');text.append(element('p','',paragraph))}
+   body.append(text);
+   body.append(element('p','reader-meta',`번역 시각 ${format(article.translated_at)} KST · ${article.paragraph_count}개 문단`));
+  }catch{
+   if(request!==readerRequest||!document.querySelector('#detail').open)return;
+   body.replaceChildren(element('h2','',item.title_ko||item.title),element('p','reader-notice','전체 번역이 아직 준비되지 않았거나 본문을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.'));
+   const original=element('a','news-source-link','원문 사이트에서 읽기 ↗');original.href=url;original.target='_blank';original.rel='noopener noreferrer';body.append(original);
+  }
  }
  async function load(name='latest',manual=false){
   const request=++currentRequest;status.textContent='뉴스를 불러오는 중입니다.';status.classList.remove('warning');
