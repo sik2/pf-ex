@@ -1,0 +1,18 @@
+{
+  "https://blog.cloudflare.com/php-ctf/": {
+    "title": "Cloudflare PHP 보안 챌린지 공개",
+    "summary": "Cloudflare가 버그 바운티 프로그램과 연계한 PHP 보안 챌린지를 공개했습니다. 보안 연구자가 WAF 방어를 우회하고 플래그를 획득하는 방식으로 방어 기능을 검증합니다."
+  },
+  "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/": {
+    "title": "2026년 3분기 인터넷 장애의 주요 원인",
+    "summary": "Cloudflare Radar가 관측한 2026년 3분기 전 세계 인터넷 장애를 분석했습니다. 정전, 자연재해, 정부의 인터넷 차단이 네트워크 연결과 트래픽에 미친 영향을 다룹니다."
+  },
+  "https://blog.cloudflare.com/kv-cache-exposure-remediation/": {
+    "title": "Workers AI의 GLM-5.3 KV 캐시 노출과 대응",
+    "summary": "Workers AI에서 GLM-5.3의 설정 불일치가 SGLang 버그를 유발해 요청 간 KV 캐시 페이지가 노출됐습니다. Cloudflare가 해당 문제와 대응 내용을 설명합니다."
+  },
+  "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/": {
+    "title": "새로운 AI Quest: 인간의 뇌 지도 만들기",
+    "summary": ""
+  }
+}

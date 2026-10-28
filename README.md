@@ -64,17 +64,19 @@ npm run dev
 
 GitHub 예약 실행은 부하에 따라 지연될 수 있으며 정확한 시각을 보장하지 않습니다. 공개 저장소의 장기간 비활동 등으로 예약이 비활성화될 수 있으므로 Actions의 최근 실행과 마지막 수집 시각을 확인하세요.
 
-### 선택적 한국어 AI 요약
+### 선택적 자동 한국어 번역·요약
 
 별도 API 키 없이도 뉴스 수집과 표시는 동작합니다. AI 요약을 원하면 저장소 Settings → Secrets and variables → Actions에 다음 두 항목을 설정합니다.
 
 - Secret `OPENAI_API_KEY`: 본인의 OpenAI API 키
 - Variable `OPENAI_MODEL`: API에서 이용 가능한 텍스트 모델 ID
 
-둘 다 설정한 경우에만 Responses API를 호출합니다. API 비용이 발생하며 ChatGPT 구독과 별도입니다. 공개 RSS 제목과 발췌문을 전송해 한국어 요약을 만들고, 화면에는 AI 요약임을 표시합니다. 키와 모델을 지정하지 않으면 출처 발췌문을 사용합니다. 키는 브라우저나 사이트 배포물에 포함하지 않습니다. 요약 실패·불완전 응답 시 발췌문으로 대체하고 상태 보고서에 남깁니다. 이번 구현에서는 실제 API 키를 사용한 호출은 검증하지 않았습니다.
+둘 다 설정한 경우에만 Responses API를 호출합니다. API 비용이 발생하며 ChatGPT 구독과 별도입니다. 공개 RSS 제목과 발췌문을 전송해 한국어 제목과 요약을 만들고, 화면에는 AI 요약임을 표시합니다. 키와 모델을 지정하지 않으면 출처 발췌문을 사용합니다. 키는 브라우저나 사이트 배포물에 포함하지 않습니다. 요약 실패·불완전 응답 시 발췌문으로 대체하고 상태 보고서에 남깁니다. 이번 구현에서는 실제 API 키를 사용한 호출은 검증하지 않았습니다.
 
 ### 공식 문서
 
 - https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule
 - https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
 - https://developers.openai.com/api/docs/guides/text
+
+기본 수집본의 한국어 번역은 `data/translations.ko.json`에서 관리합니다. 이후 새 뉴스의 자동 번역은 위 API 설정이 필요합니다. 키가 없으면 새 글은 원문으로 표시되며, 각 글의 한국어로 원문 읽기 링크에서 Google 번역을 이용할 수 있습니다.

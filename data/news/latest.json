@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "generated_at": "2026-10-28T07:15:25.914266+00:00",
+  "generated_at": "2026-10-28T07:18:32.940535+00:00",
   "max_age_hours": 72,
   "items": [
     {
@@ -11,8 +11,9 @@
       "category": "인프라",
       "published_at": "2026-10-27T13:00:00+00:00",
       "excerpt": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
-      "summary": "",
-      "summary_kind": "source_excerpt"
+      "summary": "Cloudflare가 버그 바운티 프로그램과 연계한 PHP 보안 챌린지를 공개했습니다. 보안 연구자가 WAF 방어를 우회하고 플래그를 획득하는 방식으로 방어 기능을 검증합니다.",
+      "summary_kind": "translated",
+      "title_ko": "Cloudflare PHP 보안 챌린지 공개"
     },
     {
       "id": "f21bc890ebec1e8c",
@@ -22,8 +23,9 @@
       "category": "인프라",
       "published_at": "2026-10-27T13:00:00+00:00",
       "excerpt": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
-      "summary": "",
-      "summary_kind": "source_excerpt"
+      "summary": "Cloudflare Radar가 관측한 2026년 3분기 전 세계 인터넷 장애를 분석했습니다. 정전, 자연재해, 정부의 인터넷 차단이 네트워크 연결과 트래픽에 미친 영향을 다룹니다.",
+      "summary_kind": "translated",
+      "title_ko": "2026년 3분기 인터넷 장애의 주요 원인"
     },
     {
       "id": "e77549dba84aa9c3",
@@ -33,8 +35,9 @@
       "category": "인프라",
       "published_at": "2026-10-26T22:01:23+00:00",
       "excerpt": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
-      "summary": "",
-      "summary_kind": "source_excerpt"
+      "summary": "Workers AI에서 GLM-5.3의 설정 불일치가 SGLang 버그를 유발해 요청 간 KV 캐시 페이지가 노출됐습니다. Cloudflare가 해당 문제와 대응 내용을 설명합니다.",
+      "summary_kind": "translated",
+      "title_ko": "Workers AI의 GLM-5.3 KV 캐시 노출과 대응"
     },
     {
       "id": "b1d7eb2dedce5839",
@@ -45,7 +48,8 @@
       "published_at": "2026-10-26T16:00:00+00:00",
       "excerpt": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
       "summary": "",
-      "summary_kind": "source_excerpt"
+      "summary_kind": "translated",
+      "title_ko": "새로운 AI Quest: 인간의 뇌 지도 만들기"
     }
   ]
 }
