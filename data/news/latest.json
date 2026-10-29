@@ -1,8 +1,32 @@
 {
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28T08:24:25.656568+00:00",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T01:50:10.736605+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "id": "8d24f5677c199a45",
+      "title": "GitHub Universe 2026: Evolving every layer of the stack",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-10-28T16:09:28+00:00",
+      "excerpt": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog.",
+      "summary": "오늘 GitHub를 세계에서 가장 포괄적인 엔드투엔드 소프트웨어 전달 시스템으로 만들겠다는 비전을 제시했다. 이 글은 The GitHub Blog에 처음 게재되었다.",
+      "summary_kind": "ai",
+      "title_ko": "GitHub Universe 2026: 스택의 모든 계층을 발전시키다"
+    },
+    {
+      "id": "34902b30f790e3e6",
+      "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-10-28T16:07:40+00:00",
+      "excerpt": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog.",
+      "summary": "2026년 Octoverse 보고서는 성장의 기록적인 한 해가 모든 산업, 모든 분야, 모든 유형의 개발자에게 미쳤다고 소개한다. 해당 글은 GitHub Blog에 처음 게시되었다.",
+      "summary_kind": "ai",
+      "title_ko": "Octoverse: 개발자들이 에이전트와 함께 개발하면서 2026년 커밋과 푸시가 사상 최고치를 기록"
+    },
     {
       "id": "b98b75e5e3efe8c1",
       "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
