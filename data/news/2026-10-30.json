@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T01:59:05.621006+00:00",
+  "max_age_hours": 72,
+  "items": [
+    {
+      "id": "93dde8cc7b16e732",
+      "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-10-29T12:55:00+00:00",
+      "excerpt": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
+      "summary": "Cloudflare는 2026년 3분기에 시간당 8,200건이 넘는 DDoS 공격을 완화했으며, 공격자들은 더 짧고 빈도가 높은 공격으로 전환했다. 최신 위협 데이터에는 CLDAP 벡터의 감소와 최근 봇넷 단속의 영향이 포함된다.",
+      "summary_kind": "ai",
+      "title_ko": "Cloudflare DDoS 위협 보고서 2026 Q3: 더 많은 무리, 더 적은 거인"
+    },
+    {
+      "id": "8d24f5677c199a45",
+      "title": "GitHub Universe 2026: Evolving every layer of the stack",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-10-28T16:09:28+00:00",
+      "excerpt": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog.",
+      "summary": "오늘 GitHub를 세계에서 가장 포괄적인 엔드투엔드 소프트웨어 전달 시스템으로 만들겠다는 비전을 제시했다. 이 글은 The GitHub Blog에 처음 게재되었다.",
+      "summary_kind": "ai",
+      "title_ko": "GitHub Universe 2026: 스택의 모든 계층을 발전시키다"
+    },
+    {
+      "id": "34902b30f790e3e6",
+      "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-10-28T16:07:40+00:00",
+      "excerpt": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog.",
+      "summary": "2026년 Octoverse 보고서는 성장의 기록적인 한 해가 모든 산업, 모든 분야, 모든 유형의 개발자에게 미쳤다고 소개한다. 해당 글은 GitHub Blog에 처음 게시되었다.",
+      "summary_kind": "ai",
+      "title_ko": "Octoverse: 개발자들이 에이전트와 함께 개발하면서 2026년 커밋과 푸시가 사상 최고치를 기록"
+    },
+    {
+      "id": "b98b75e5e3efe8c1",
+      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+      "url": "https://blog.cloudflare.com/php-ctf/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-10-27T13:00:00+00:00",
+      "excerpt": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+      "summary": "Cloudflare가 버그 바운티 프로그램과 연계한 PHP 보안 챌린지를 공개했습니다. 보안 연구자가 WAF 방어를 우회하고 플래그를 획득하는 방식으로 방어 기능을 검증합니다.",
+      "summary_kind": "translated",
+      "title_ko": "Cloudflare PHP 보안 챌린지 공개"
+    },
+    {
+      "id": "f21bc890ebec1e8c",
+      "title": "What took the Internet offline in Q3 2026",
+      "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-10-27T13:00:00+00:00",
+      "excerpt": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
+      "summary": "Cloudflare Radar가 관측한 2026년 3분기 전 세계 인터넷 장애를 분석했습니다. 정전, 자연재해, 정부의 인터넷 차단이 네트워크 연결과 트래픽에 미친 영향을 다룹니다.",
+      "summary_kind": "translated",
+      "title_ko": "2026년 3분기 인터넷 장애의 주요 원인"
+    }
+  ]
+}

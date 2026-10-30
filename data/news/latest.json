@@ -1,8 +1,20 @@
 {
-  "date": "2026-10-29",
-  "generated_at": "2026-10-29T01:50:10.736605+00:00",
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T01:59:05.621006+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "id": "93dde8cc7b16e732",
+      "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-10-29T12:55:00+00:00",
+      "excerpt": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
+      "summary": "Cloudflare는 2026년 3분기에 시간당 8,200건이 넘는 DDoS 공격을 완화했으며, 공격자들은 더 짧고 빈도가 높은 공격으로 전환했다. 최신 위협 데이터에는 CLDAP 벡터의 감소와 최근 봇넷 단속의 영향이 포함된다.",
+      "summary_kind": "ai",
+      "title_ko": "Cloudflare DDoS 위협 보고서 2026 Q3: 더 많은 무리, 더 적은 거인"
+    },
     {
       "id": "8d24f5677c199a45",
       "title": "GitHub Universe 2026: Evolving every layer of the stack",
@@ -50,30 +62,6 @@
       "summary": "Cloudflare Radar가 관측한 2026년 3분기 전 세계 인터넷 장애를 분석했습니다. 정전, 자연재해, 정부의 인터넷 차단이 네트워크 연결과 트래픽에 미친 영향을 다룹니다.",
       "summary_kind": "translated",
       "title_ko": "2026년 3분기 인터넷 장애의 주요 원인"
-    },
-    {
-      "id": "e77549dba84aa9c3",
-      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
-      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-      "source": "Cloudflare Blog",
-      "category": "인프라",
-      "published_at": "2026-10-26T22:01:23+00:00",
-      "excerpt": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
-      "summary": "Workers AI에서 GLM-5.3의 설정 불일치가 SGLang 버그를 유발해 요청 간 KV 캐시 페이지가 노출됐습니다. Cloudflare가 해당 문제와 대응 내용을 설명합니다.",
-      "summary_kind": "translated",
-      "title_ko": "Workers AI의 GLM-5.3 KV 캐시 노출과 대응"
-    },
-    {
-      "id": "b1d7eb2dedce5839",
-      "title": "Our newest AI Quest: Mapping the human brain",
-      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "source": "Google AI Blog",
-      "category": "AI",
-      "published_at": "2026-10-26T16:00:00+00:00",
-      "excerpt": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
-      "summary": "발췌문에는 행성을 회전시키며 여러 만화 인물들이 손을 흔드는 삽화가 보이고, 상단에 \"AI Quests\"라는 문구가 있다.",
-      "summary_kind": "ai",
-      "title_ko": "우리의 최신 AI 퀘스트: 인간 두뇌 매핑"
     }
   ]
 }
