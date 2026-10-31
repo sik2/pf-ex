@@ -1,11 +1,23 @@
 {
-  "ok": false,
-  "attempted_at": "2026-10-30T01:59:33.478138+00:00",
+  "ok": true,
+  "attempted_at": "2026-10-31T01:37:58.279637+00:00",
   "articles": [
+    {
+      "id": "46377df52764d6fd",
+      "ok": true,
+      "cached": false,
+      "paragraphs": 35
+    },
+    {
+      "id": "4d4206ade98bad0a",
+      "ok": true,
+      "cached": false,
+      "paragraphs": 53
+    },
     {
       "id": "93dde8cc7b16e732",
       "ok": true,
-      "cached": false,
+      "cached": true,
       "paragraphs": 31
     },
     {
@@ -19,18 +31,6 @@
       "ok": true,
       "cached": true,
       "paragraphs": 147
-    },
-    {
-      "id": "b98b75e5e3efe8c1",
-      "ok": true,
-      "cached": true,
-      "paragraphs": 32
-    },
-    {
-      "id": "f21bc890ebec1e8c",
-      "ok": false,
-      "error": "HTTPError",
-      "http_status": 503
     }
   ]
 }

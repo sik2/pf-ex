@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T01:37:40.469529+00:00",
+  "max_age_hours": 72,
+  "items": [
+    {
+      "id": "46377df52764d6fd",
+      "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+      "url": "https://blog.cloudflare.com/emudhra-patching/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-10-30T17:38:50+00:00",
+      "excerpt": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
+      "summary": "eMudhra 인증서를 사용하는 패치되지 않은 인터넷 연결은 네 개의 키로 뚫릴 수 있다고 한다. Cloudflare가 이를 빠르게 패치한 과정과, 악용 시도로 보이는 증거 및 여전히 노출된 인터넷의 범위를 다룬다.",
+      "summary_kind": "ai",
+      "title_ko": "진짜인가? eMudhra의 약한 키 악용과 패치 추적"
+    },
+    {
+      "id": "4d4206ade98bad0a",
+      "title": "Cloudflare services for private origins is now generally available",
+      "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-10-30T14:23:43+00:00",
+      "excerpt": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
+      "summary": "Cloudflare One 연결을 사용하는 모든 고객이 이제 WAF, 봇 관리, 캐싱, Workers를 갖춘 공개 트래픽을 비공개 원본으로 보낼 수 있다.",
+      "summary_kind": "ai",
+      "title_ko": "Cloudflare 비공개 원본용 서비스가 이제 정식 출시되었습니다"
+    },
+    {
+      "id": "93dde8cc7b16e732",
+      "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-10-29T12:55:00+00:00",
+      "excerpt": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
+      "summary": "Cloudflare는 2026년 3분기에 시간당 8,200건이 넘는 DDoS 공격을 완화했으며, 공격자들은 더 짧고 빈도가 높은 공격으로 전환했다. 최신 위협 데이터에는 CLDAP 벡터의 감소와 최근 봇넷 단속의 영향이 포함된다.",
+      "summary_kind": "ai",
+      "title_ko": "Cloudflare DDoS 위협 보고서 2026 Q3: 더 많은 무리, 더 적은 거인"
+    },
+    {
+      "id": "8d24f5677c199a45",
+      "title": "GitHub Universe 2026: Evolving every layer of the stack",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-10-28T16:09:28+00:00",
+      "excerpt": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog.",
+      "summary": "오늘 GitHub를 세계에서 가장 포괄적인 엔드투엔드 소프트웨어 전달 시스템으로 만들겠다는 비전을 제시했다. 이 글은 The GitHub Blog에 처음 게재되었다.",
+      "summary_kind": "ai",
+      "title_ko": "GitHub Universe 2026: 스택의 모든 계층을 발전시키다"
+    },
+    {
+      "id": "34902b30f790e3e6",
+      "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-10-28T16:07:40+00:00",
+      "excerpt": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog.",
+      "summary": "2026년 Octoverse 보고서는 성장의 기록적인 한 해가 모든 산업, 모든 분야, 모든 유형의 개발자에게 미쳤다고 소개한다. 해당 글은 GitHub Blog에 처음 게시되었다.",
+      "summary_kind": "ai",
+      "title_ko": "Octoverse: 개발자들이 에이전트와 함께 개발하면서 2026년 커밋과 푸시가 사상 최고치를 기록"
+    }
+  ]
+}
