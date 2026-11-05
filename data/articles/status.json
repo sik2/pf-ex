@@ -1,17 +1,23 @@
 {
   "ok": true,
-  "attempted_at": "2026-11-04T02:23:49.907935+00:00",
+  "attempted_at": "2026-11-05T02:30:29.304248+00:00",
   "articles": [
+    {
+      "id": "d13fbfe75d78ae19",
+      "ok": true,
+      "cached": false,
+      "paragraphs": 19
+    },
     {
       "id": "410a92595886a074",
       "ok": true,
-      "cached": false,
+      "cached": true,
       "paragraphs": 54
     },
     {
       "id": "e581154108f523de",
       "ok": true,
-      "cached": false,
+      "cached": true,
       "paragraphs": 39
     },
     {
@@ -25,12 +31,6 @@
       "ok": true,
       "cached": true,
       "paragraphs": 97
-    },
-    {
-      "id": "9a97986aa28bfe34",
-      "ok": true,
-      "cached": false,
-      "paragraphs": 79
     }
   ]
 }

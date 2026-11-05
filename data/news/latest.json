@@ -1,8 +1,20 @@
 {
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04T02:23:10.478766+00:00",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T02:30:16.216056+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "id": "d13fbfe75d78ae19",
+      "title": "See the agents, set the terms: new visibility and control for personal agents",
+      "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-04T14:00:00+00:00",
+      "excerpt": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
+      "summary": "개인용 AI 에이전트는 사용자가 웹과 상호작용하는 방식을 바꾸며 자동화 트래픽과 인간 트래픽의 경계를 흐리고 있습니다. Cloudflare가 사이트 소유자에게 개인용 에이전트 접근을 관리할 수 있는 가시성과 제어를 제공하는 방법을 소개합니다.",
+      "summary_kind": "ai",
+      "title_ko": "에이전트를 확인하고 조건을 설정하세요: 개인용 에이전트에 대한 새로운 가시성과 제어"
+    },
     {
       "id": "410a92595886a074",
       "title": "Arnis turns any place on Earth into a Minecraft world",
@@ -50,18 +62,6 @@
       "summary": "구역 설정 변경이 수천만 개의 레코드가 있는 영역까지 포함해 DNS 영역 전체를 다시 빌드하던 문제를 다뤘다. 가장 작은 안전한 빌드를 고르는 플래너를 만들어 전체 빌드를 40% 줄이고, 피크 메모리를 85% 줄이며 빌드 지연을 절반으로 낮췄다.",
       "summary_kind": "ai",
       "title_ko": "DNS 빌드 지연을 절반으로 줄이고 메모리 사용량을 85% 줄인 방법"
-    },
-    {
-      "id": "9a97986aa28bfe34",
-      "title": "Game Off 2026: The theme is SHIFT",
-      "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
-      "source": "GitHub Blog",
-      "category": "개발",
-      "published_at": "2026-11-01T21:36:00+00:00",
-      "excerpt": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog.",
-      "summary": "GitHub의 연례 한 달짜리 게임 잼이 14년째 돌아왔습니다. 이번 11월에는 SHIFT라는 주제에서 영감을 받아 게임을 만들어 보세요.",
-      "summary_kind": "ai",
-      "title_ko": "Game Off 2026: 주제는 SHIFT입니다"
     }
   ]
 }
