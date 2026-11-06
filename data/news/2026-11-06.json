@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T02:30:32.905231+00:00",
+  "max_age_hours": 72,
+  "items": [
+    {
+      "id": "51dc1d2f6b3bd6df",
+      "title": "Inside GitHub’s new Git storage architecture",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-11-05T20:23:21+00:00",
+      "excerpt": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog.",
+      "summary": "GitHub의 새로운 Git 저장소 아키텍처는 수천 개의 에이전트가 동시에 하나의 저장소에 푸시할 수 있도록 설계됐다. 작동 방식에 대한 내용이다.",
+      "summary_kind": "ai",
+      "title_ko": "GitHub의 새로운 Git 저장소 아키텍처 내부"
+    },
+    {
+      "id": "7303cf34c367e545",
+      "title": "Agents aren’t humans (but they kinda are)",
+      "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-05T17:03:04+00:00",
+      "excerpt": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic.",
+      "summary": "AI 에이전트는 수많은 사용자를 대신해 행동하지만, 서버는 사용자 가시성을 없애는 중개자로 본다. 이 글은 이 문제 영역을 정의하고 자동화된 트래픽을 안전하게 식별, 허용, 관리하는 협력적 접근법을 소개한다.",
+      "summary_kind": "ai",
+      "title_ko": "에이전트는 인간이 아니다(하지만 어느 정도는 그렇다)"
+    },
+    {
+      "id": "27b87d65d3f99406",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-05T17:00:00+00:00",
+      "excerpt": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street",
+      "summary": "발췌문에는 ‘Gemini Omni 1.2 Flash’ 소개 문구가 있으며, 벌집, 대화하는 동물들, 오징어, 거리에서 걷는 여성의 이미지가 함께 언급된다.",
+      "summary_kind": "ai",
+      "title_ko": "Gemini Omni 1.2 Flash: 더 긴 클립에서도 빠르고 비용 효율적"
+    },
+    {
+      "id": "1558c78d072630b6",
+      "title": "Accessibility statements now have a home on GitHub",
+      "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-11-05T16:00:00+00:00",
+      "excerpt": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blo…",
+      "summary": "GitHub는 이제 ACCESSIBILITY.md 파일을 강조 표시하고, 유지 관리자가 접근성 목표, 알려진 장벽, 지원 환경, 기여자 기대 사항, 보고 절차를 문서화하도록 돕습니다. 해당 게시물은 The GitHub Blog에 처음 게재되었습니다.",
+      "summary_kind": "ai",
+      "title_ko": "이제 접근성 선언문이 GitHub에 자리 잡았습니다"
+    },
+    {
+      "id": "d13fbfe75d78ae19",
+      "title": "See the agents, set the terms: new visibility and control for personal agents",
+      "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-04T14:00:00+00:00",
+      "excerpt": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
+      "summary": "개인용 AI 에이전트는 사용자가 웹과 상호작용하는 방식을 바꾸며 자동화 트래픽과 인간 트래픽의 경계를 흐리고 있습니다. Cloudflare가 사이트 소유자에게 개인용 에이전트 접근을 관리할 수 있는 가시성과 제어를 제공하는 방법을 소개합니다.",
+      "summary_kind": "ai",
+      "title_ko": "에이전트를 확인하고 조건을 설정하세요: 개인용 에이전트에 대한 새로운 가시성과 제어"
+    },
+    {
+      "id": "410a92595886a074",
+      "title": "Arnis turns any place on Earth into a Minecraft world",
+      "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-11-03T16:00:00+00:00",
+      "excerpt": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog.",
+      "summary": "루이 에르브캄이 여가 시간을 활용해 첫 프로토타입을 만들었습니다. 현재는 GitHub Copilot이 그가 이를 혼자 유지보수하는 데 도움을 주고 있습니다.",
+      "summary_kind": "ai",
+      "title_ko": "Arnis는 지구상의 어떤 장소든 마인크래프트 세계로 바꾼다"
+    },
+    {
+      "id": "e581154108f523de",
+      "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+      "url": "https://blog.cloudflare.com/zero-wire/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-03T14:00:00+00:00",
+      "excerpt": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+      "summary": "Zero Wire는 Cloudflare Radar에서 평이한 설명의 브리핑, 전 세계 공격 텔레메트리, 그리고 대응 단계를 함께 제공합니다. 이를 통해 중요한 CVE를 더 빠르게 분류하고 인프라를 보호하는 방법을 결정할 수 있습니다.",
+      "summary_kind": "ai",
+      "title_ko": "중요한 인터넷 취약점을 조사하기 위한 허브, Zero Wire 소개"
+    }
+  ]
+}
