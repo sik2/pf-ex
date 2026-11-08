@@ -1,17 +1,17 @@
 {
   "ok": true,
-  "attempted_at": "2026-11-07T01:58:50.226303+00:00",
+  "attempted_at": "2026-11-08T01:28:14.369810+00:00",
   "articles": [
     {
       "id": "aff32afb63af01e7",
       "ok": true,
-      "cached": false,
+      "cached": true,
       "paragraphs": 53
     },
     {
       "id": "a4dbacf967e62059",
       "ok": true,
-      "cached": false,
+      "cached": true,
       "paragraphs": 82
     },
     {
@@ -37,12 +37,6 @@
       "ok": true,
       "cached": true,
       "paragraphs": 39
-    },
-    {
-      "id": "d13fbfe75d78ae19",
-      "ok": true,
-      "cached": true,
-      "paragraphs": 19
     }
   ]
 }

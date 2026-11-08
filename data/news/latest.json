@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-07",
-  "generated_at": "2026-11-07T01:57:56.739783+00:00",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T01:28:13.555140+00:00",
   "max_age_hours": 72,
   "items": [
     {
@@ -74,18 +74,6 @@
       "summary": "GitHub는 이제 ACCESSIBILITY.md 파일을 강조 표시하고, 유지 관리자가 접근성 목표, 알려진 장벽, 지원 환경, 기여자 기대 사항, 보고 절차를 문서화하도록 돕습니다. 해당 게시물은 The GitHub Blog에 처음 게재되었습니다.",
       "summary_kind": "ai",
       "title_ko": "이제 접근성 선언문이 GitHub에 자리 잡았습니다"
-    },
-    {
-      "id": "d13fbfe75d78ae19",
-      "title": "See the agents, set the terms: new visibility and control for personal agents",
-      "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
-      "source": "Cloudflare Blog",
-      "category": "인프라",
-      "published_at": "2026-11-04T14:00:00+00:00",
-      "excerpt": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
-      "summary": "개인용 AI 에이전트는 사용자가 웹과 상호작용하는 방식을 바꾸며 자동화 트래픽과 인간 트래픽의 경계를 흐리고 있습니다. Cloudflare가 사이트 소유자에게 개인용 에이전트 접근을 관리할 수 있는 가시성과 제어를 제공하는 방법을 소개합니다.",
-      "summary_kind": "ai",
-      "title_ko": "에이전트를 확인하고 조건을 설정하세요: 개인용 에이전트에 대한 새로운 가시성과 제어"
     }
   ]
 }
