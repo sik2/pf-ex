@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-08",
-  "generated_at": "2026-11-08T01:28:13.555140+00:00",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T01:45:09.812443+00:00",
   "max_age_hours": 72,
   "items": [
     {
@@ -26,54 +26,6 @@
       "summary": "Privacy Pass 같은 암호 프로토콜은 웹사이트를 악용으로부터 보호하면서도 사용자 프라이버시를 지키는 데 도움이 된다. 이 글은 이러한 프로토콜에 대한 양자 위협과 그 격차를 메울 수 있는 새로운 포스트 양자 암호기술을 다룬다.",
       "summary_kind": "ai",
       "title_ko": "웹 프라이버시의 포스트 양자 미래"
-    },
-    {
-      "id": "51dc1d2f6b3bd6df",
-      "title": "Inside GitHub’s new Git storage architecture",
-      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-      "source": "GitHub Blog",
-      "category": "개발",
-      "published_at": "2026-11-05T20:23:21+00:00",
-      "excerpt": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog.",
-      "summary": "GitHub의 새로운 Git 저장소 아키텍처는 수천 개의 에이전트가 동시에 하나의 저장소에 푸시할 수 있도록 설계됐다. 작동 방식에 대한 내용이다.",
-      "summary_kind": "ai",
-      "title_ko": "GitHub의 새로운 Git 저장소 아키텍처 내부"
-    },
-    {
-      "id": "7303cf34c367e545",
-      "title": "Agents aren’t humans (but they kinda are)",
-      "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
-      "source": "Cloudflare Blog",
-      "category": "인프라",
-      "published_at": "2026-11-05T17:03:04+00:00",
-      "excerpt": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic.",
-      "summary": "AI 에이전트는 수많은 사용자를 대신해 행동하지만, 서버는 사용자 가시성을 없애는 중개자로 본다. 이 글은 이 문제 영역을 정의하고 자동화된 트래픽을 안전하게 식별, 허용, 관리하는 협력적 접근법을 소개한다.",
-      "summary_kind": "ai",
-      "title_ko": "에이전트는 인간이 아니다(하지만 어느 정도는 그렇다)"
-    },
-    {
-      "id": "27b87d65d3f99406",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "source": "Google AI Blog",
-      "category": "AI",
-      "published_at": "2026-11-05T17:00:00+00:00",
-      "excerpt": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street",
-      "summary": "발췌문에는 ‘Gemini Omni 1.2 Flash’ 소개 문구가 있으며, 벌집, 대화하는 동물들, 오징어, 거리에서 걷는 여성의 이미지가 함께 언급된다.",
-      "summary_kind": "ai",
-      "title_ko": "Gemini Omni 1.2 Flash: 더 긴 클립에서도 빠르고 비용 효율적"
-    },
-    {
-      "id": "1558c78d072630b6",
-      "title": "Accessibility statements now have a home on GitHub",
-      "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
-      "source": "GitHub Blog",
-      "category": "개발",
-      "published_at": "2026-11-05T16:00:00+00:00",
-      "excerpt": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blo…",
-      "summary": "GitHub는 이제 ACCESSIBILITY.md 파일을 강조 표시하고, 유지 관리자가 접근성 목표, 알려진 장벽, 지원 환경, 기여자 기대 사항, 보고 절차를 문서화하도록 돕습니다. 해당 게시물은 The GitHub Blog에 처음 게재되었습니다.",
-      "summary_kind": "ai",
-      "title_ko": "이제 접근성 선언문이 GitHub에 자리 잡았습니다"
     }
   ]
 }
