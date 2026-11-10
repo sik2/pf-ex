@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T04:09:14.439093+00:00",
+  "max_age_hours": 72,
+  "items": [
+    {
+      "id": "f27ad28b0c4db975",
+      "title": "Launching the Vite Ecosystem Fund",
+      "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-09T13:00:00+00:00",
+      "excerpt": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+      "summary": "Cloudflare가 Vite 생태계 펀드의 첫 301,300달러를 오픈 소스 프로젝트와 유지관리자들에게 배분한다. 수혜자는 Cloudflare에 고용되지 않은 유지관리자를 포함한 Vite 스택 핵심 팀원 패널이 선정했다.",
+      "summary_kind": "ai",
+      "title_ko": "Vite 생태계 펀드 출범"
+    }
+  ]
+}

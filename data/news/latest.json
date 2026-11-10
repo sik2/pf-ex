@@ -1,31 +1,19 @@
 {
-  "date": "2026-11-09",
-  "generated_at": "2026-11-09T01:45:09.812443+00:00",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T04:09:14.439093+00:00",
   "max_age_hours": 72,
   "items": [
     {
-      "id": "aff32afb63af01e7",
-      "title": "Beyond code generation: A developer’s guide to agentic engineering",
-      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
-      "source": "GitHub Blog",
-      "category": "개발",
-      "published_at": "2026-11-06T22:15:59+00:00",
-      "excerpt": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appear…",
-      "summary": "코드 작성은 빨라졌지만 그 주변의 작업은 그렇지 않다. GitHub Copilot으로 계획, 코드 작성, 변경 검토, 운영 문제 조사까지 어떻게 할 수 있는지와 여전히 판단이 필요한 업무를 소개한다.",
-      "summary_kind": "ai",
-      "title_ko": "코드 생성을 넘어: 에이전트형 엔지니어링을 위한 개발자 가이드"
-    },
-    {
-      "id": "a4dbacf967e62059",
-      "title": "The post-quantum future of web privacy",
-      "url": "https://blog.cloudflare.com/vole-mole/",
+      "id": "f27ad28b0c4db975",
+      "title": "Launching the Vite Ecosystem Fund",
+      "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
       "source": "Cloudflare Blog",
       "category": "인프라",
-      "published_at": "2026-11-06T14:00:00+00:00",
-      "excerpt": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
-      "summary": "Privacy Pass 같은 암호 프로토콜은 웹사이트를 악용으로부터 보호하면서도 사용자 프라이버시를 지키는 데 도움이 된다. 이 글은 이러한 프로토콜에 대한 양자 위협과 그 격차를 메울 수 있는 새로운 포스트 양자 암호기술을 다룬다.",
+      "published_at": "2026-11-09T13:00:00+00:00",
+      "excerpt": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+      "summary": "Cloudflare가 Vite 생태계 펀드의 첫 301,300달러를 오픈 소스 프로젝트와 유지관리자들에게 배분한다. 수혜자는 Cloudflare에 고용되지 않은 유지관리자를 포함한 Vite 스택 핵심 팀원 패널이 선정했다.",
       "summary_kind": "ai",
-      "title_ko": "웹 프라이버시의 포스트 양자 미래"
+      "title_ko": "Vite 생태계 펀드 출범"
     }
   ]
 }
