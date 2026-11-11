@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "status": "ready",
+  "id": "59a8a5dd3afc5312",
+  "title": "Adobe의 크리에이티브 및 생산성 도구를 일상적인 Google 앱에 더 가깝게 가져옵니다.",
+  "original_title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+  "source": "Google AI Blog",
+  "source_url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+  "published_at": "2026-11-10T14:00:00+00:00",
+  "translated_at": "2026-11-11T01:58:01.422784+00:00",
+  "source_hash": "424309804dfdbdbbb785021e31f8ca2528bc88531f1a622a782ce5ff091aec5a",
+  "paragraph_count": 7,
+  "paragraphs": [
+    "우리는 Adobe의 창작 및 생산성 도구를 여러분이 매일 사용하는 Google 앱에 더 가깝게 가져오고 있습니다.",
+    "오늘 Adobe MAX에서 우리는 Adobe와의 파트너십을 확대한다고 발표했습니다.",
+    "앱을 오가며 PDF를 편집하거나 이미지를 세밀하게 조정하는 일은 금세 집중력을 깨뜨릴 수 있습니다. 이번 파트너십을 통해 Adobe의 창작 및 생산성 도구가 여러분이 매일 사용하는 Google 제품 안으로 직접 들어오게 됩니다. 또한 Google의 최첨단 AI 모델도 Adobe의 앱에 들어오게 됩니다. 앞으로 제공될 내용은 다음과 같습니다:",
+    "- PDF 작업을 더 빠르게: 곧 Google Drive와 Gmail에서 Adobe Acrobat으로 바로 이어지는 경로를 이용할 수 있게 됩니다. 이 기능은 두 서비스 전반에서 추천 앱으로 표시되며, 파일 미리보기에는 “Edit with” 진입점도 포함됩니다.",
+    "- 검색하고 채팅하는 바로 그 자리에서 창작하기: Adobe는 Acrobat과 추가 창작 도구를 포함하도록 Gemini와 Gemini Enterprise에서의 커넥터를 확장하고 있습니다. 또한 Adobe는 Google Search의 AI Mode에도 자사의 창작 도구를 제공할 예정입니다.",
+    "- 창작자와 기업을 지원하는 힘: 기업들은 Gemini Enterprise에서 Adobe의 CX Enterprise Coworker 에이전트를 사용할 수 있게 됩니다. 이는 팀이 앱을 전환하지 않고도 그래픽을 디자인하고, PDF를 작업하고, 마케팅 캠페인을 시작할 수 있도록 돕는 AI 비서입니다.",
+    "- DeepMind와 함께 편집 경험 탐색하기: Adobe와 Google DeepMind는 크리에이티브 전문가를 위한 새로운 편집 기능을 함께 모색할 예정이며, 그 시작으로 Photoshop용 이미지 모델을 통해 거의 실시간에 가까운 편집을 가능하게 할 수 있습니다."
+  ]
+}
