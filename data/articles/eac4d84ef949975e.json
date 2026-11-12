@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "status": "ready",
+  "id": "eac4d84ef949975e",
+  "title": "Try Tabletop: 그룹이 함께 계획하고, 놀고, 더 많은 일을 할 수 있는 맞춤형 협업 공간.",
+  "original_title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+  "source": "Google AI Blog",
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+  "published_at": "2026-11-11T16:00:00+00:00",
+  "translated_at": "2026-11-12T03:04:36.328446+00:00",
+  "source_hash": "2a0f01957f481ab1b1257bda8099a02eb198808edd34543218dec79b27378f0c",
+  "paragraph_count": 5,
+  "paragraphs": [
+    "Try Tabletop: 그룹이 함께 계획하고, 놀고, 더 많은 일을 함께할 수 있는 맞춤형 협업 공간.",
+    "가족 여행을 계획하든, 동호회 리그를 운영하든, 포틀럭을 주최하든, 한곳에서 모두가 함께 참여하고, 만들고, 함께 결정할 수 있으면 그룹 단위 조율이 훨씬 쉬워집니다.",
+    "오늘 우리는 실시간 협업을 위해 만들어진 새로운 Google Labs 실험인 Tabletop을 소개합니다.",
+    "링크, 파일, 아이디어만 추가한 뒤 @tabletop에 프롬프트를 입력하거나, 시작용 템플릿을 선택해 맞춤형 인터랙티브 여행 일정, 저녁 식사 투표, 비용 분담표, 토너먼트 대진표를 생성해 보세요. 공간이 준비되면 초대 링크를 그룹 채팅에 공유해 모두가 Google 문서처럼 동시에 들어와 사용할 수 있습니다.",
+    "Tabletop은 대기자 명단을 통해 미국(18세 이상)에서 순차적으로 공개되고 있습니다. 의자를 끌어당겨 앉고 labs.google/tabletop에서 가입하세요."
+  ]
+}

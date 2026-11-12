@@ -1,8 +1,56 @@
 {
-  "date": "2026-11-11",
-  "generated_at": "2026-11-11T01:57:41.544781+00:00",
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T03:04:26.327512+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "id": "c06fca3b9549fb95",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-11T18:00:00+00:00",
+      "excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "summary": "Gemini Decisions API를 소개하며, 최첨단 모델 Gemini Decision으로 빠르고 보정된 멀티모달 의사결정을 제공한다고 설명한다.",
+      "summary_kind": "ai",
+      "title_ko": "Gemini Decisions API: 빠르고 보정된 멀티모달 의사결정"
+    },
+    {
+      "id": "eac4d84ef949975e",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-11T16:00:00+00:00",
+      "excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "summary": "Tabletop은 그룹 협업을 위한 새로운 Google Labs 실험이다. 팀과 함께 인터랙티브한 일정, 투표, 대진표를 만들 수 있으며 대기자 명단에 참여할 수 있다.",
+      "summary_kind": "ai",
+      "title_ko": "Try Tabletop: 그룹이 함께 계획하고, 놀고, 더 많은 일을 할 수 있는 맞춤형 협업 공간."
+    },
+    {
+      "id": "b4c8fa961fce9edf",
+      "title": "Choosing QuePaxa, an unusual consensus algorithm",
+      "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-11T14:24:46+00:00",
+      "excerpt": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+      "summary": "Cloudflare는 이전에 배포된 적이 없는 합의 알고리즘인 QuePaxa를 사용한 실험적 합의 서비스를 구축하고 있다. 이 글에서는 QuePaxa의 작동 방식과 이를 선택한 이유를 설명한다.",
+      "summary_kind": "ai",
+      "title_ko": "비정상적인 합의 알고리즘, QuePaxa 선택하기"
+    },
+    {
+      "id": "8e8e851f9ac38a19",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-11T09:00:00+00:00",
+      "excerpt": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
+      "summary": "Wits School of Arts, Witwatersrand University의 큐레이토리얼·공공·시각문화학과 선임 강사인 닥터 논토베코 은톰벨라의 초상입니다.",
+      "summary_kind": "ai",
+      "title_ko": "에스더 말랑구 박사의 예술과 유산을 경험하세요"
+    },
     {
       "id": "c0101f36ad82bf91",
       "title": "Gemini Intelligence: New features, on more devices",
