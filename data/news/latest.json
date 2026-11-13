@@ -1,8 +1,44 @@
 {
-  "date": "2026-11-12",
-  "generated_at": "2026-11-12T03:04:26.327512+00:00",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T02:39:22.325569+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "id": "7c512829bf524dd8",
+      "title": "GitHub availability report: October 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-11-13T00:20:16+00:00",
+      "excerpt": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog.",
+      "summary": "10월에 GitHub 서비스 전반에서 성능 저하를 초래한 8건의 장애가 발생했다.",
+      "summary_kind": "ai",
+      "title_ko": "GitHub 가용성 보고서: 2026년 10월"
+    },
+    {
+      "id": "8bc9138e516754eb",
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-11-12T22:54:52+00:00",
+      "excerpt": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Bl…",
+      "summary": "에이전트 스킬은 팀이 검토하고 재사용할 수 있는 파일 형태로 반복 가능한 엔지니어링 작업을 담는다. 도구, 프로젝트 컨텍스트, 권한은 이를 실행하는 호스트에 따라 달라진다.",
+      "summary_kind": "ai",
+      "title_ko": "한 번 만들고 어떤 에이전트에서나 실행하기: 에이전트 스킬에 대한 실용 가이드"
+    },
+    {
+      "id": "f19cddd04797ae7d",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-12T18:00:00+00:00",
+      "excerpt": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "summary": "Google 검색에 “Gemini 4 Hydrogen”이 적용되었음을 보여주는 카드형 캐러셀과 Google 검색 UI 예시가 소개되었다.",
+      "summary_kind": "ai",
+      "title_ko": "Google 검색, Gemini 4 Hydrogen으로 대대적인 업그레이드"
+    },
     {
       "id": "c06fca3b9549fb95",
       "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
@@ -98,18 +134,6 @@
       "summary": "Google Cloud는 임상 데이터를 통합하고 워크플로를 자동화하기 위해 의료용 Gemini를 출시했다. 행정적 번아웃을 줄이는 데 목적이 있다.",
       "summary_kind": "ai",
       "title_ko": "Google Cloud, 의료용 Gemini 출시"
-    },
-    {
-      "id": "f27ad28b0c4db975",
-      "title": "Launching the Vite Ecosystem Fund",
-      "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
-      "source": "Cloudflare Blog",
-      "category": "인프라",
-      "published_at": "2026-11-09T13:00:00+00:00",
-      "excerpt": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
-      "summary": "Cloudflare가 Vite 생태계 펀드의 첫 301,300달러를 오픈 소스 프로젝트와 유지관리자들에게 배분한다. 수혜자는 Cloudflare에 고용되지 않은 유지관리자를 포함한 Vite 스택 핵심 팀원 패널이 선정했다.",
-      "summary_kind": "ai",
-      "title_ko": "Vite 생태계 펀드 출범"
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "status": "ready",
+  "id": "f19cddd04797ae7d",
+  "title": "Google 검색, Gemini 4 Hydrogen으로 대대적인 업그레이드",
+  "original_title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+  "source": "Google AI Blog",
+  "source_url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+  "published_at": "2026-11-12T18:00:00+00:00",
+  "translated_at": "2026-11-13T02:39:46.671439+00:00",
+  "source_hash": "a240c0917941de0bc131d19de05dbda5f0ef35f55fb6017c0940ee8c7268edb5",
+  "paragraph_count": 10,
+  "paragraphs": [
+    "Google Search, Gemini 4 Hydrogen으로 대대적인 업그레이드",
+    "기사 듣기",
+    "이 콘텐츠는 Google AI가 생성했습니다. 생성형 AI는 실험 단계입니다",
+    "오늘 Google Search는 Gemini 4 Hydrogen으로 최첨단 지능을 모든 사용자에게 제공하고 있습니다. 이는 Search에 적용된 역대 최대 규모의 모델 업그레이드입니다.",
+    "Hydrogen은 이제 전 세계 모든 Google Search 사용자에게 제공되며, 향상된 모델 기능을 통해 더 유용하고 시각적이며 직관적인 응답을 제공합니다:",
+    "- 의도에 대한 더 나은 이해: Search는 이제 훨씬 더 미묘하고 복잡한 질문도 처리할 수 있어, 사용자가 필요한 것을 빠르게 이해합니다. 여러 부분으로 구성된 질문, 알아보기 어려운 오타, 매우 구체적인 요청까지 포함해 자연스러운 사고 흐름대로 자유롭게 질문하세요. 더 깊어진 지시 이행과 도구 호출을 통해 Search는 사용자가 원하는 바를 더욱 정확하게 따르고, 질문의 각 부분을 다루는 관련성 높은 응답을 제공합니다.",
+    "- 향상된 쿼리 팬아웃과 연결: Hydrogen의 고급 추론은 Search의 쿼리 팬아웃 기법을 한층 강화해, 이전보다 훨씬 더 폭넓은 유용한 링크로 연결해 줍니다. 질문을 더 철저히 이해하고 관련된 모든 하위 주제에 걸쳐 동시에 쿼리를 수행함으로써, Search는 사용자가 이전에는 발견하지 못했을 수도 있는 사이트를 찾도록 도와줍니다.",
+    "- 더 시각적인 응답: 사용자의 필요에 독보적으로 관련된, 매우 적응적이고 시각적이며 한눈에 훑기 쉬운 응답을 Search의 속도로 제공합니다. 더 많은 이미지, 구조화된 응답, 비교 표, 그리고 사용자를 위해 만들어진 맞춤형 도구를 보게 될 것입니다.",
+    "- 더욱 풍부한 언어 이해: 어떤 언어로 질문하든, 이제 모든 지원되는 AI Mode 언어에서 더욱 미묘하고 유용한 응답을 받을 수 있습니다.",
+    "오늘 Search에서 Gemini 4 Hydrogen을 사용해 보세요."
+  ]
+}
