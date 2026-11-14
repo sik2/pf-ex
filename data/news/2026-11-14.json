@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T02:27:58.730254+00:00",
+  "max_age_hours": 72,
+  "items": [
+    {
+      "id": "5ab783dcdbdb11e3",
+      "title": "Kitesurf is now open source",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-13T20:20:21+00:00",
+      "excerpt": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+      "summary": "Kitesurf는 AI 에이전트를 위한 실험적인 브라우저 엔진으로, 이제 오픈 소스로 공개되었습니다. 코드를 살펴보거나 로컬에서 실행하고, Cloudflare Workers에 자체 인스턴스를 배포할 수 있습니다.",
+      "summary_kind": "ai",
+      "title_ko": "Kitesurf가 이제 오픈 소스입니다"
+    },
+    {
+      "id": "a009bbdbfbe6de47",
+      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+      "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-13T19:26:07+00:00",
+      "excerpt": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+      "summary": "ARTEX와 같은 AI 기반 침투 테스트 오케스트레이션 플랫폼은 노출된 인프라에 대한 효과적인 공격을 가능하게 하는 강력한 도구가 되고 있습니다. Cloudflare는 이에 대한 관찰 내용과 권장 대응책을 공유합니다.",
+      "summary_kind": "ai",
+      "title_ko": "AI 침투 테스트 오케스트레이터에 적응하기: 현대 보안 모델"
+    },
+    {
+      "id": "40ec4dab142d1c85",
+      "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+      "url": "https://blog.cloudflare.com/spend-management/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-13T14:00:00+00:00",
+      "excerpt": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+      "summary": "Spend Management는 Cloudflare Workers와 Durable Objects에 대해 선택적으로 지출 한도를 추가하며, 곧 더 많은 제품에도 적용될 예정이다. 또한 사용량을 런타임 결정으로 바꾸는 계량 파이프라인을 어떻게 구축했는지 설명한다.",
+      "summary_kind": "ai",
+      "title_ko": "Cloudflare를 위한 지출 관리 소개: 지출 한도와 알림"
+    },
+    {
+      "id": "7c512829bf524dd8",
+      "title": "GitHub availability report: October 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-11-13T00:20:16+00:00",
+      "excerpt": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog.",
+      "summary": "10월에 GitHub 서비스 전반에서 성능 저하를 초래한 8건의 장애가 발생했다.",
+      "summary_kind": "ai",
+      "title_ko": "GitHub 가용성 보고서: 2026년 10월"
+    },
+    {
+      "id": "8bc9138e516754eb",
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-11-12T22:54:52+00:00",
+      "excerpt": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Bl…",
+      "summary": "에이전트 스킬은 팀이 검토하고 재사용할 수 있는 파일 형태로 반복 가능한 엔지니어링 작업을 담는다. 도구, 프로젝트 컨텍스트, 권한은 이를 실행하는 호스트에 따라 달라진다.",
+      "summary_kind": "ai",
+      "title_ko": "한 번 만들고 어떤 에이전트에서나 실행하기: 에이전트 스킬에 대한 실용 가이드"
+    },
+    {
+      "id": "f19cddd04797ae7d",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-12T18:00:00+00:00",
+      "excerpt": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "summary": "Google 검색에 “Gemini 4 Hydrogen”이 적용되었음을 보여주는 카드형 캐러셀과 Google 검색 UI 예시가 소개되었다.",
+      "summary_kind": "ai",
+      "title_ko": "Google 검색, Gemini 4 Hydrogen으로 대대적인 업그레이드"
+    },
+    {
+      "id": "c06fca3b9549fb95",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-11T18:00:00+00:00",
+      "excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "summary": "Gemini Decisions API를 소개하며, 최첨단 모델 Gemini Decision으로 빠르고 보정된 멀티모달 의사결정을 제공한다고 설명한다.",
+      "summary_kind": "ai",
+      "title_ko": "Gemini Decisions API: 빠르고 보정된 멀티모달 의사결정"
+    },
+    {
+      "id": "eac4d84ef949975e",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-11T16:00:00+00:00",
+      "excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "summary": "Tabletop은 그룹 협업을 위한 새로운 Google Labs 실험이다. 팀과 함께 인터랙티브한 일정, 투표, 대진표를 만들 수 있으며 대기자 명단에 참여할 수 있다.",
+      "summary_kind": "ai",
+      "title_ko": "Try Tabletop: 그룹이 함께 계획하고, 놀고, 더 많은 일을 할 수 있는 맞춤형 협업 공간."
+    },
+    {
+      "id": "b4c8fa961fce9edf",
+      "title": "Choosing QuePaxa, an unusual consensus algorithm",
+      "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-11T14:24:46+00:00",
+      "excerpt": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+      "summary": "Cloudflare는 이전에 배포된 적이 없는 합의 알고리즘인 QuePaxa를 사용한 실험적 합의 서비스를 구축하고 있다. 이 글에서는 QuePaxa의 작동 방식과 이를 선택한 이유를 설명한다.",
+      "summary_kind": "ai",
+      "title_ko": "비정상적인 합의 알고리즘, QuePaxa 선택하기"
+    },
+    {
+      "id": "8e8e851f9ac38a19",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-11T09:00:00+00:00",
+      "excerpt": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
+      "summary": "Wits School of Arts, Witwatersrand University의 큐레이토리얼·공공·시각문화학과 선임 강사인 닥터 논토베코 은톰벨라의 초상입니다.",
+      "summary_kind": "ai",
+      "title_ko": "에스더 말랑구 박사의 예술과 유산을 경험하세요"
+    }
+  ]
+}

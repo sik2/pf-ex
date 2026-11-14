@@ -1,8 +1,44 @@
 {
-  "date": "2026-11-13",
-  "generated_at": "2026-11-13T02:39:22.325569+00:00",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T02:27:58.730254+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "id": "5ab783dcdbdb11e3",
+      "title": "Kitesurf is now open source",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-13T20:20:21+00:00",
+      "excerpt": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+      "summary": "Kitesurf는 AI 에이전트를 위한 실험적인 브라우저 엔진으로, 이제 오픈 소스로 공개되었습니다. 코드를 살펴보거나 로컬에서 실행하고, Cloudflare Workers에 자체 인스턴스를 배포할 수 있습니다.",
+      "summary_kind": "ai",
+      "title_ko": "Kitesurf가 이제 오픈 소스입니다"
+    },
+    {
+      "id": "a009bbdbfbe6de47",
+      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+      "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-13T19:26:07+00:00",
+      "excerpt": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+      "summary": "ARTEX와 같은 AI 기반 침투 테스트 오케스트레이션 플랫폼은 노출된 인프라에 대한 효과적인 공격을 가능하게 하는 강력한 도구가 되고 있습니다. Cloudflare는 이에 대한 관찰 내용과 권장 대응책을 공유합니다.",
+      "summary_kind": "ai",
+      "title_ko": "AI 침투 테스트 오케스트레이터에 적응하기: 현대 보안 모델"
+    },
+    {
+      "id": "40ec4dab142d1c85",
+      "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+      "url": "https://blog.cloudflare.com/spend-management/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-13T14:00:00+00:00",
+      "excerpt": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+      "summary": "Spend Management는 Cloudflare Workers와 Durable Objects에 대해 선택적으로 지출 한도를 추가하며, 곧 더 많은 제품에도 적용될 예정이다. 또한 사용량을 런타임 결정으로 바꾸는 계량 파이프라인을 어떻게 구축했는지 설명한다.",
+      "summary_kind": "ai",
+      "title_ko": "Cloudflare를 위한 지출 관리 소개: 지출 한도와 알림"
+    },
     {
       "id": "7c512829bf524dd8",
       "title": "GitHub availability report: October 2026",
@@ -86,54 +122,6 @@
       "summary": "Wits School of Arts, Witwatersrand University의 큐레이토리얼·공공·시각문화학과 선임 강사인 닥터 논토베코 은톰벨라의 초상입니다.",
       "summary_kind": "ai",
       "title_ko": "에스더 말랑구 박사의 예술과 유산을 경험하세요"
-    },
-    {
-      "id": "c0101f36ad82bf91",
-      "title": "Gemini Intelligence: New features, on more devices",
-      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-      "source": "Google AI Blog",
-      "category": "AI",
-      "published_at": "2026-11-10T19:00:00+00:00",
-      "excerpt": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
-      "summary": "한 남성이 휴대전화에 말을 하고 있다. 화면에는 'Gemini Intelligence'라는 문구가 표시되어 있다.",
-      "summary_kind": "ai",
-      "title_ko": "Gemini Intelligence: 더 많은 기기에서 제공되는 새로운 기능"
-    },
-    {
-      "id": "2c15f23ac7aa344c",
-      "title": "Git security vulnerabilities announced",
-      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
-      "source": "GitHub Blog",
-      "category": "개발",
-      "published_at": "2026-11-10T18:00:00+00:00",
-      "excerpt": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog.",
-      "summary": "Git이 재귀적 클론, 참조 처리, 병합, 바이너리 패치, 가져오기에 영향을 주는 6개의 보안 취약점을 해결하는 업데이트를 배포한다. 사용자들이 알아야 할 내용이 포함되어 있다.",
-      "summary_kind": "ai",
-      "title_ko": "Git 보안 취약점 발표"
-    },
-    {
-      "id": "59a8a5dd3afc5312",
-      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-      "source": "Google AI Blog",
-      "category": "AI",
-      "published_at": "2026-11-10T14:00:00+00:00",
-      "excerpt": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
-      "summary": "Google과 Adobe가 크리에이티브 및 생산성 도구를 통합합니다. Drive에서 PDF를 편집하고 Gemini에서 Adobe AI를 사용할 수 있습니다.",
-      "summary_kind": "ai",
-      "title_ko": "Adobe의 크리에이티브 및 생산성 도구를 일상적인 Google 앱에 더 가깝게 가져옵니다."
-    },
-    {
-      "id": "ef83b8dc18b1604d",
-      "title": "Google Cloud launches Gemini for healthcare.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-      "source": "Google AI Blog",
-      "category": "AI",
-      "published_at": "2026-11-10T13:00:00+00:00",
-      "excerpt": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
-      "summary": "Google Cloud는 임상 데이터를 통합하고 워크플로를 자동화하기 위해 의료용 Gemini를 출시했다. 행정적 번아웃을 줄이는 데 목적이 있다.",
-      "summary_kind": "ai",
-      "title_ko": "Google Cloud, 의료용 Gemini 출시"
     }
   ]
 }

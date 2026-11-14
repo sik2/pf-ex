@@ -1,23 +1,41 @@
 {
   "ok": true,
-  "attempted_at": "2026-11-13T02:40:05.024206+00:00",
+  "attempted_at": "2026-11-14T02:28:32.712380+00:00",
   "articles": [
+    {
+      "id": "5ab783dcdbdb11e3",
+      "ok": true,
+      "cached": false,
+      "paragraphs": 46
+    },
+    {
+      "id": "a009bbdbfbe6de47",
+      "ok": true,
+      "cached": false,
+      "paragraphs": 74
+    },
+    {
+      "id": "40ec4dab142d1c85",
+      "ok": true,
+      "cached": false,
+      "paragraphs": 102
+    },
     {
       "id": "7c512829bf524dd8",
       "ok": true,
-      "cached": false,
+      "cached": true,
       "paragraphs": 135
     },
     {
       "id": "8bc9138e516754eb",
       "ok": true,
-      "cached": false,
+      "cached": true,
       "paragraphs": 38
     },
     {
       "id": "f19cddd04797ae7d",
       "ok": true,
-      "cached": false,
+      "cached": true,
       "paragraphs": 10
     },
     {
@@ -43,30 +61,6 @@
       "ok": true,
       "cached": true,
       "paragraphs": 12
-    },
-    {
-      "id": "c0101f36ad82bf91",
-      "ok": true,
-      "cached": true,
-      "paragraphs": 13
-    },
-    {
-      "id": "2c15f23ac7aa344c",
-      "ok": true,
-      "cached": true,
-      "paragraphs": 45
-    },
-    {
-      "id": "59a8a5dd3afc5312",
-      "ok": true,
-      "cached": true,
-      "paragraphs": 7
-    },
-    {
-      "id": "ef83b8dc18b1604d",
-      "ok": true,
-      "cached": true,
-      "paragraphs": 4
     }
   ]
 }
