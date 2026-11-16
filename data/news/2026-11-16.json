@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T02:12:26.571521+00:00",
+  "max_age_hours": 72,
+  "items": [
+    {
+      "id": "5ab783dcdbdb11e3",
+      "title": "Kitesurf is now open source",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-13T20:20:21+00:00",
+      "excerpt": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+      "summary": "Kitesurf는 AI 에이전트를 위한 실험적인 브라우저 엔진으로, 이제 오픈 소스로 공개되었습니다. 코드를 살펴보거나 로컬에서 실행하고, Cloudflare Workers에 자체 인스턴스를 배포할 수 있습니다.",
+      "summary_kind": "ai",
+      "title_ko": "Kitesurf가 이제 오픈 소스입니다"
+    },
+    {
+      "id": "a009bbdbfbe6de47",
+      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+      "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-13T19:26:07+00:00",
+      "excerpt": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+      "summary": "ARTEX와 같은 AI 기반 침투 테스트 오케스트레이션 플랫폼은 노출된 인프라에 대한 효과적인 공격을 가능하게 하는 강력한 도구가 되고 있습니다. Cloudflare는 이에 대한 관찰 내용과 권장 대응책을 공유합니다.",
+      "summary_kind": "ai",
+      "title_ko": "AI 침투 테스트 오케스트레이터에 적응하기: 현대 보안 모델"
+    },
+    {
+      "id": "40ec4dab142d1c85",
+      "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+      "url": "https://blog.cloudflare.com/spend-management/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-13T14:00:00+00:00",
+      "excerpt": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+      "summary": "Spend Management는 Cloudflare Workers와 Durable Objects에 대해 선택적으로 지출 한도를 추가하며, 곧 더 많은 제품에도 적용될 예정이다. 또한 사용량을 런타임 결정으로 바꾸는 계량 파이프라인을 어떻게 구축했는지 설명한다.",
+      "summary_kind": "ai",
+      "title_ko": "Cloudflare를 위한 지출 관리 소개: 지출 한도와 알림"
+    }
+  ]
+}

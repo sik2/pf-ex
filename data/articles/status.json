@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "attempted_at": "2026-11-15T01:57:36.853518+00:00",
+  "attempted_at": "2026-11-16T02:12:27.090023+00:00",
   "articles": [
     {
       "id": "5ab783dcdbdb11e3",
@@ -19,24 +19,6 @@
       "ok": true,
       "cached": true,
       "paragraphs": 102
-    },
-    {
-      "id": "7c512829bf524dd8",
-      "ok": true,
-      "cached": true,
-      "paragraphs": 135
-    },
-    {
-      "id": "8bc9138e516754eb",
-      "ok": true,
-      "cached": true,
-      "paragraphs": 38
-    },
-    {
-      "id": "f19cddd04797ae7d",
-      "ok": true,
-      "cached": true,
-      "paragraphs": 10
     }
   ]
 }
