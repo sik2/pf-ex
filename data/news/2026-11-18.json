@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T03:43:45.237128+00:00",
+  "max_age_hours": 72,
+  "items": [
+    {
+      "id": "9fd23e018da5cf4f",
+      "title": "Quad9’s withdrawal from France: A canary in the coal mine",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-17T20:24:27+00:00",
+      "excerpt": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.",
+      "summary": "Quad9의 프랑스 철수는 DNS 수준 차단을 의무화하는 것의 위험성을 드러낸다. 공용 리졸버를 콘텐츠 필터로 강제하는 것은 기술적으로 결함이 있으며 개방형 인터넷을 위협한다.",
+      "summary_kind": "ai",
+      "title_ko": "프랑스에서의 Quad9 철수: 광산의 카나리아"
+    },
+    {
+      "id": "de1a299348ffc0d1",
+      "title": "Maintainers don’t need more AI bug reports. They need fixes.",
+      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-11-17T18:29:29+00:00",
+      "excerpt": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports…",
+      "summary": "Codename MDASH 파일럿에서 GitHub과 Microsoft는 수천 건의 원시 AI 발견 내용을 6개의 널리 쓰이는 오픈소스 프로젝트에 대해 제안된 수정 사항이 포함된 99개의 검증된 비공개 보고서로 정리했다. 유지 관리자들은 이미 그중 절반 이상을 수정했다.",
+      "summary_kind": "ai",
+      "title_ko": "유지 관리자에게는 더 많은 AI 버그 보고서가 필요하지 않다. 필요한 것은 수정이다."
+    },
+    {
+      "id": "2f1c65ad4b7ec380",
+      "title": "Building the Agent Host Protocol for sessions that continue across devices",
+      "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-11-17T18:20:40+00:00",
+      "excerpt": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog.",
+      "summary": "에디터, 앱, 휴대폰, 클라우드 전반에서 에이전트 세션에 계속 접근할 수 있도록 열린 Agent Host Protocol을 구축한 방법을 소개한다.",
+      "summary_kind": "ai",
+      "title_ko": "기기 간에 이어지는 세션을 위한 에이전트 호스트 프로토콜 구축"
+    },
+    {
+      "id": "b451aff394adbb42",
+      "title": "Put Gemini to work for you",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-17T17:00:00+00:00",
+      "excerpt": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
+      "summary": "사용자 인터페이스에 “What can I get done for you?”라는 문구가 입력 상자 위에 표시되어 있습니다. 입력 상자에는 “Describe a task”라는 자리표시 텍스트가 보입니다.",
+      "summary_kind": "ai",
+      "title_ko": "Gemini를 당신을 위해 일하게 하세요"
+    },
+    {
+      "id": "dfc32ad6652396f0",
+      "title": "New Ask Maps features to help with holiday travel and prep",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-16T14:00:00+00:00",
+      "excerpt": "tbd",
+      "summary": "발췌문이 제공되지 않아 요약할 수 없습니다.",
+      "summary_kind": "ai",
+      "title_ko": "휴일 여행과 준비를 돕는 새로운 Ask Maps 기능"
+    }
+  ]
+}
