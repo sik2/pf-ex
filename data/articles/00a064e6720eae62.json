@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "status": "ready",
+  "id": "00a064e6720eae62",
+  "title": "Gemini 앱이 이제 더 낮은 메모리의 안드로이드 기기에서 사용 가능합니다.",
+  "original_title": "The Gemini app is now available on lower-memory Android devices.",
+  "source": "Google AI Blog",
+  "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+  "published_at": "2026-11-18T17:00:00+00:00",
+  "translated_at": "2026-11-19T03:34:04.713575+00:00",
+  "source_hash": "9d718250ed9ecf074e9900b3f515023011facf433eb198ffe5a99d3ca9063c5d",
+  "paragraph_count": 4,
+  "paragraphs": [
+    "Gemini 앱을 이제 메모리 용량이 더 낮은 Android 기기에서도 사용할 수 있습니다.",
+    "전 세계 수억 명의 사람들에게 메모리 용량이 더 낮은 Android 기기는 인터넷, 교육, 비즈니스와 연결되는 일상적인 수단입니다.",
+    "최근까지는 하드웨어 제약 때문에 그런 휴대전화에서는 기본적인 음성 명령만 사용할 수 있었습니다. 이제 저희는 자격을 갖춘 Android(Go edition) 기기에 Gemini 앱을 제공하여, Google의 개인 AI 어시스턴트를 더 많은 수억 명의 사람들에게 제공하고 있습니다. 저희는 더 적은 메모리를 갖춘 하드웨어에서도 핵심 Gemini 경험이 원활하게 작동하도록 앱을 재설계했습니다.",
+    "긴 프롬프트를 입력하는 대신 Gemini Live를 통해 45개 이상의 언어로 직접 대화하거나 면접 연습을 큰 소리로 해볼 수 있고, 카메라를 노트나 서식에 비춰 학습하고 번역할 수 있으며, 주말 빵집 세일 전단지처럼 Nano Banana로 맞춤 이미지를 만들 수도 있습니다. 시작하려면 Google Play에서 Gemini 앱을 다운로드하고, 지원되는 휴대전화에서는 전원 버튼을 길게 누르거나, Transsion 같은 파트너의 향후 기기에 미리 탑재되어 있는지 확인하세요."
+  ]
+}

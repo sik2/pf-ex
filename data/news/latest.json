@@ -1,8 +1,44 @@
 {
-  "date": "2026-11-18",
-  "generated_at": "2026-11-18T03:43:45.237128+00:00",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T03:33:56.383949+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "id": "c9098ac47ad21321",
+      "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+      "url": "https://blog.cloudflare.com/open-clairic/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-18T22:00:00+00:00",
+      "excerpt": "Add your teaser here. It should complement the headline, not repeat it. Teaser cannot be longer than 240 characters. The Blog Review Gem will suggest an excerpt. Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight rel…",
+      "summary": "Clairic는 미리보기 단계를 졸업했으며, Clairic-flash가 Workers AI의 모델 목록에 추가되었습니다. 오픈 웨이트로 공개되었습니다.",
+      "summary_kind": "ai",
+      "title_ko": "새로운 Workers AI Superintelligence 팀에서 업데이트된 Clairic와 Clairic-flash가 이제 오픈 웨이트로 공개되었습니다"
+    },
+    {
+      "id": "00a064e6720eae62",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-18T17:00:00+00:00",
+      "excerpt": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "summary": "Google Gemini 앱이 이제 메모리가 더 낮은 안드로이드 기기를 지원한다. 휴대전화에서 Gemini Live와 맞춤 이미지 생성을 이용할 수 있으며, 지금 앱을 다운로드할 수 있다.",
+      "summary_kind": "ai",
+      "title_ko": "Gemini 앱이 이제 더 낮은 메모리의 안드로이드 기기에서 사용 가능합니다."
+    },
+    {
+      "id": "a0792ea92321f143",
+      "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+      "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-18T14:52:10+00:00",
+      "excerpt": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.",
+      "summary": "Java4Shell은 OpenJDK의 Base64 디코더에 있는 치명적인 메모리 손상 취약점으로, 원격 코드 실행으로 이어질 수 있다. Cloudflare는 유료 요금제에서 일치하는 요청을 기본적으로 기록하는 WAF 관리 규칙 6개를 출시했으며, Java 런타임을 지금 패치하라고 권고한다.",
+      "summary_kind": "ai",
+      "title_ko": "Cloudflare WAF가 Java4Shell(CVE-2026-114938)로부터 보호하는 방법"
+    },
     {
       "id": "9fd23e018da5cf4f",
       "title": "Quad9’s withdrawal from France: A canary in the coal mine",
