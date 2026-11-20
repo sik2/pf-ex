@@ -1,8 +1,68 @@
 {
-  "date": "2026-11-19",
-  "generated_at": "2026-11-19T03:33:56.383949+00:00",
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T03:23:29.314269+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "id": "17fab3637860c9a7",
+      "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+      "url": "https://blog.cloudflare.com/nginx2root/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-20T01:58:29+00:00",
+      "excerpt": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.",
+      "summary": "인증되지 않은 공격자가 서버에서 코드를 실행할 수 있게 하는 nginx의 메모리 손상 취약점 5개가 소개된다. 또한 Cloudflare 프록시 뒤의 오리진이 이들 중 가장 심각한 취약점들로부터 보호되는 이유를 설명한다.",
+      "summary_kind": "ai",
+      "title_ko": "nginx2root: 새로운 nginx 취약점 5개와 Cloudflare가 그중 가장 심각한 것들로부터 오리진을 보호하는 방법"
+    },
+    {
+      "id": "1b3aafed7dd5d45c",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-19T18:00:00+00:00",
+      "excerpt": "Gemini spark on a space background",
+      "summary": "우주 배경 위에 있는 Gemini spark를 보여준다.",
+      "summary_kind": "ai",
+      "title_ko": "Gemini API에 도구 검색 기능 소개"
+    },
+    {
+      "id": "d47c74f9a7ce43a8",
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-19T17:00:00+00:00",
+      "excerpt": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "summary": "월터 아이작슨이 구글에 출연해 역사상 가장 위대한 혁신가들이 AI 시대의 창의성과 인간의 판단에 어떻게 영감을 주는지 이야기한다. 에피소드를 시청하라는 안내가 포함되어 있다.",
+      "summary_kind": "ai",
+      "title_ko": "AI 시대의 호기심과 창의성에 관한 월터 아이작슨"
+    },
+    {
+      "id": "5f364a8612fd0351",
+      "title": "The best things in open source are built together",
+      "url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-11-19T16:00:00+00:00",
+      "excerpt": "Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion. The post The best things in open source are built together appeared first on The GitHub Blog.",
+      "summary": "Replica와 Open Source Accessibility Framework를 소개한다. 협업과 포용을 위한 새로운 오픈 소스 프로젝트라고 밝힌다.",
+      "summary_kind": "ai",
+      "title_ko": "오픈 소스의 가장 좋은 것들은 함께 만들어진다"
+    },
+    {
+      "id": "32c1e05692d04a88",
+      "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+      "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-19T14:00:00+00:00",
+      "excerpt": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
+      "summary": "2026년 11월 3일 미국 유권자들이 투표에 나섰다. Cloudflare의 1,400개가 넘는 보호 사이트 데이터를 통해 선거일의 인터넷 트래픽과 사이버 공격 상황을 살펴본다.",
+      "summary_kind": "ai",
+      "title_ko": "2026년 미국 중간선거 기간의 인터넷 트래픽과 공격"
+    },
     {
       "id": "c9098ac47ad21321",
       "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
@@ -10,10 +70,10 @@
       "source": "Cloudflare Blog",
       "category": "인프라",
       "published_at": "2026-11-18T22:00:00+00:00",
-      "excerpt": "Add your teaser here. It should complement the headline, not repeat it. Teaser cannot be longer than 240 characters. The Blog Review Gem will suggest an excerpt. Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight rel…",
-      "summary": "Clairic는 미리보기 단계를 졸업했으며, Clairic-flash가 Workers AI의 모델 목록에 추가되었습니다. 오픈 웨이트로 공개되었습니다.",
+      "excerpt": "Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
+      "summary": "Clairic은 미리보기 단계에서 정식으로 전환되었고, Clairic-flash는 Workers AI에 새로 추가되었습니다. 두 추출 모델 모두 오픈 웨이트로 공개됩니다.",
       "summary_kind": "ai",
-      "title_ko": "새로운 Workers AI Superintelligence 팀에서 업데이트된 Clairic와 Clairic-flash가 이제 오픈 웨이트로 공개되었습니다"
+      "title_ko": "업데이트된 Clairic과 Clairic-flash가 새 Workers AI Superintelligence 팀에서 이제 오픈 웨이트로 공개되었습니다"
     },
     {
       "id": "00a064e6720eae62",
@@ -86,18 +146,6 @@
       "summary": "사용자 인터페이스에 “What can I get done for you?”라는 문구가 입력 상자 위에 표시되어 있습니다. 입력 상자에는 “Describe a task”라는 자리표시 텍스트가 보입니다.",
       "summary_kind": "ai",
       "title_ko": "Gemini를 당신을 위해 일하게 하세요"
-    },
-    {
-      "id": "dfc32ad6652396f0",
-      "title": "New Ask Maps features to help with holiday travel and prep",
-      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-      "source": "Google AI Blog",
-      "category": "AI",
-      "published_at": "2026-11-16T14:00:00+00:00",
-      "excerpt": "tbd",
-      "summary": "발췌문이 제공되지 않아 요약할 수 없습니다.",
-      "summary_kind": "ai",
-      "title_ko": "휴일 여행과 준비를 돕는 새로운 Ask Maps 기능"
     }
   ]
 }
