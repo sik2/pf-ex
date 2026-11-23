@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T02:50:33.399701+00:00",
+  "max_age_hours": 72,
+  "items": [
+    {
+      "id": "c851a250df92def9",
+      "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+      "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-20T20:24:38+00:00",
+      "excerpt": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+      "summary": "ruby2shell은 로그인하지 않은 공격자가 기본 Rails 및 Sinatra 앱에서 메모리를 손상시킬 수 있다. Cloudflare WAF는 Free 플랜을 포함한 모든 고객에게 이를 차단하며, Ruby를 즉시 업그레이드하고 그동안 WAF로 보완하라고 권고한다.",
+      "summary_kind": "ai",
+      "title_ko": "Cloudflare WAF가 ruby2shell(CVE-2026-132825)로부터 어떻게 보호하는가"
+    },
+    {
+      "id": "dee94a929dea9fb9",
+      "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+      "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-20T20:00:45+00:00",
+      "excerpt": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
+      "summary": "phpAfterShell은 PHP의 기본 세션 핸들러에 있는 치명적인 취약점으로, 코드 실행으로 이어질 수 있다. Cloudflare WAF는 무료 요금제를 포함한 모든 고객에게 이를 차단하며, 같은 릴리스에서 수정된 다른 PHP 취약점에 대한 새 규칙도 추가한다.",
+      "summary_kind": "ai",
+      "title_ko": "Cloudflare WAF가 phpAfterShell 및 기타 치명적인 PHP 취약점으로부터 보호하는 방법"
+    }
+  ]
+}
