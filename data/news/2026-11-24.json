@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T06:05:39.295008+00:00",
+  "max_age_hours": 72,
+  "items": [
+    {
+      "id": "d6fdac3c20f42b84",
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-23T17:00:00+00:00",
+      "excerpt": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
+      "summary": "발췌문에는 Google 검색창에 \"Personal Intelligence\"라는 문구가 보이며, Google Wallet, Google Drive, Gmail, Google Photos, Google Calendar, Google 로고 아이콘이 둘러싸고 있다고만 나와 있다.",
+      "summary_kind": "ai",
+      "title_ko": "더욱 맞춤화되어 당신만의 것인 Google 검색"
+    },
+    {
+      "id": "6c9e35ea9179d576",
+      "title": "Probing DNS at Cloudflare",
+      "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-23T14:00:00+00:00",
+      "excerpt": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
+      "summary": "Cloudflare는 내부 테스트 프레임워크를 확장하고 네트워킹 프로토콜용 테스트 도구를 구축할 수 있는 도구를 만들었다. 이 글은 그 도구가 DNS에 어떻게 사용되었는지에 대한 이야기다.",
+      "summary_kind": "ai",
+      "title_ko": "Cloudflare에서 DNS를 탐구하기"
+    }
+  ]
+}

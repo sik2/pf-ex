@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "status": "ready",
+  "id": "d6fdac3c20f42b84",
+  "title": "더욱 맞춤화되어 당신만의 것인 Google 검색",
+  "original_title": "A more tailored Google Search that’s uniquely yours",
+  "source": "Google AI Blog",
+  "source_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+  "published_at": "2026-11-23T17:00:00+00:00",
+  "translated_at": "2026-11-24T06:05:49.101567+00:00",
+  "source_hash": "ee1bd3eeb2350e510d5cebadeef86d5ff802dbcd4bbd4cdfc7e11444275da705",
+  "paragraph_count": 8,
+  "paragraphs": [
+    "더욱 나만의 맞춤형 Google 검색",
+    "가장 유용한 검색 경험은 세상 정보의 풍부함과 당신에게 독특하게 관련 있는 통찰을 함께 제공합니다. 오늘 Search는 더 많은 앱을 Personal Intelligence에 연결할 수 있는 기능으로 한층 더 맞춤화되고 있으며, 더 개인적으로 관련성 높은 응답도 새롭게 도입해 필요한 것을 더 쉽게 찾을 수 있습니다.",
+    "오늘부터 순차적으로 적용되기 시작하며, 이제 AI Mode에서 Google Wallet을 Personal Intelligence에 안전하게 연결하도록 선택할 수 있고, 앞으로 몇 주 안에 Drive와 Gemini 앱도 지원될 예정입니다. 이를 통해 지출, 문서, 대화의 맥락이 직접 Search로 연결됩니다. 이러한 앱들은 Gmail, Calendar, Photos와 함께 여러분의 개인적 맥락을 반영한 더욱 맞춤화된 응답을 제공합니다.",
+    "- Google Wallet로 지출을 더 명확하게 파악하세요: AI Mode와 Gemini 앱 모두에서 Google Wallet을 Personal Intelligence에 연결하면, 재정적 이정표를 계획하고 일상 지출을 줄일 수 있는 실행 가능한 방법을 파악할 수 있습니다. 또한 Wallet에 연결된 카드 정보를 바탕으로 캐시백 카테고리, 여행 혜택, 리워드 포인트를 최적화하는 등 신용카드 혜택도 최대한 활용할 수 있습니다. Wallet을 연결하기로 선택하면 AI Mode는 계정의 정보만 읽을 수 있으며, 돈을 이동하거나 관리하거나 투자할 수는 없습니다.",
+    "- Google Drive로 흐름을 이어가세요: 때로는 프로젝트를 시작하거나 큰 결정을 내리는 데 필요한 중요한 정보가 문서, 시트 또는 PDF 전반에 흩어져 있을 수 있습니다. Personal Intelligence에 Google Drive를 연결하면, 그러한 모든 맥락을 고려한 독특하게 유용한 응답을 받아 시작하는 데 도움을 받을 수 있습니다. 예를 들어 세금 시즌을 앞둔 맞춤형 준비 계획처럼 말입니다.",
+    "- Gemini 앱과 Search 사이의 점들을 연결하세요: 앞으로 몇 주 안에 Gemini 앱과 Search의 AI Mode 간에 맥락을 쉽게 공유할 수 있게 됩니다. 따라서 Gemini 앱에서 어떤 아이디어를 탐색하면 AI Mode가 그 기반 위에서 이어서 발전시킬 수 있고, 그 반대도 마찬가지입니다. 이미 Gemini 앱에서 Search 기록을 Personal Intelligence에 연결하도록 선택할 수 있었지만, 곧 AI Mode에서도 Gemini 앱을 Personal Intelligence에 안전하게 연결하도록 선택할 수 있게 됩니다.",
+    "AI Mode에서 앱을 Personal Intelligence에 연결하려면 Search Personalization을 열고 Connected Apps를 선택한 다음 연결할 앱을 선택하세요. 언제 연결할지 여부는 직접 선택할 수 있으며, 언제든지 해당 연결을 켜거나 끌 수 있습니다. 개인화 설정은 항상 여러분이 직접 제어하며, 곧 맞춤형 응답 아래의 “Personalization” 아이콘을 통해 AI Mode가 사용하는 맥락도 볼 수 있게 됩니다. 무엇이든 수정하고 싶다면 AI Mode에 변경할 내용을 알려주기만 하면 됩니다. 예를 들어 스레드에 “이제 저는 채식주의자가 아닙니다.”라고 답하면 됩니다.",
+    "또한 최근 검색 맥락에 맞춰 더욱 개인적으로 관련성 높은 응답이 AI Overviews와 AI Mode에 표시되기 시작할 것입니다. 따라서 여행을 조사하고 계획해 왔다면, 처음부터 다시 시작하거나 같은 말을 반복하지 않고도 새 검색 스레드에서 바로 이어서 진행할 수 있습니다. 언제나 그렇듯이 Search Settings에서 언제든지 개인화를 조정하거나 끌 수 있습니다."
+  ]
+}
