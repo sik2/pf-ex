@@ -1,8 +1,32 @@
 {
-  "date": "2026-11-24",
-  "generated_at": "2026-11-24T06:05:39.295008+00:00",
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T04:54:15.269177+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "id": "215487d78b45f131",
+      "title": "These are the gifts developers will actually want",
+      "url": "https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-11-24T16:00:00+00:00",
+      "excerpt": "The developer you're shopping for hasn’t shared their holiday wish list with you yet? Check out these gifts, plus our Black Friday discount all week long. The post These are the gifts developers will actually want appeared first on The GitHub Blog.",
+      "summary": "개발자를 위한 선물 아이디어를 소개하며, 블랙프라이데이 할인도 이번 주 내내 제공한다고 전한다.",
+      "summary_kind": "ai",
+      "title_ko": "개발자들이 실제로 받고 싶어 할 선물은 이런 것들입니다"
+    },
+    {
+      "id": "0d108e7b71c40649",
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "source": "Google AI Blog",
+      "category": "AI",
+      "published_at": "2026-11-24T16:00:00+00:00",
+      "excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+      "summary": "Google Gemini가 골든스테이트와 파트너십을 맺어 워리어스, 발키리스, 체이스 센터의 팬 경험과 비즈니스 운영을 지원한다. 자세한 내용은 뉴스에서 확인할 수 있다.",
+      "summary_kind": "ai",
+      "title_ko": "Gemini가 골든스테이트의 조직과 팬들을 위해 게임 판도를 어떻게 바꾸고 있는가."
+    },
     {
       "id": "d6fdac3c20f42b84",
       "title": "A more tailored Google Search that’s uniquely yours",
