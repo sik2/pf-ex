@@ -1,5 +1,5 @@
 {
-  "attempted_at": "2026-11-26T04:10:40.904458+00:00",
+  "attempted_at": "2026-11-27T04:17:49.182694+00:00",
   "sources": [
     {
       "name": "GitHub Blog",
@@ -9,12 +9,12 @@
     {
       "name": "Cloudflare Blog",
       "ok": true,
-      "count": 2
+      "count": 1
     },
     {
       "name": "Google AI Blog",
       "ok": true,
-      "count": 2
+      "count": 1
     }
   ],
   "ok": true,
