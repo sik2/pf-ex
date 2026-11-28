@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T03:56:27.619892+00:00",
+  "max_age_hours": 72,
+  "items": [
+    {
+      "id": "0ef8b273cccd0c03",
+      "title": "Art of play in the age of AI",
+      "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-11-25T16:00:00+00:00",
+      "excerpt": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog.",
+      "summary": "코드가 그 어느 때보다 빨리 배포되는 지금, 개발자들은 재미를 위한 프로젝트에 더 많은 시간을 쓸 수 있다. 그 과정을 통해 개발자로서 무엇을 배울 수 있는지 살펴본다.",
+      "summary_kind": "ai",
+      "title_ko": "AI 시대의 놀이 예술"
+    },
+    {
+      "id": "7d5c43e3274406d0",
+      "title": "How to choose the next safe step in application modernization",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+      "source": "GitHub Blog",
+      "category": "개발",
+      "published_at": "2026-11-25T15:00:00+00:00",
+      "excerpt": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill. The post How to choose the next safe step in application modernization appeared first on The GitHub Blog.",
+      "summary": "레거시 애플리케이션을 평가하고, 범위가 제한된 현대화 단계를 선택하는 방법을 소개한다. 또한 이 방법을 GitHub Copilot 에이전트 스킬과 함께 재사용하는 방법을 설명한다.",
+      "summary_kind": "ai",
+      "title_ko": "애플리케이션 현대화에서 다음 안전한 단계를 선택하는 방법"
+    },
+    {
+      "id": "a9bc069d7df21121",
+      "title": "Introducing Search for Agents",
+      "url": "https://blog.cloudflare.com/search-for-agents/",
+      "source": "Cloudflare Blog",
+      "category": "인프라",
+      "published_at": "2026-11-25T14:00:00+00:00",
+      "excerpt": "Flip one toggle to make your site searchable by AI agents — complete with automatic content indexing, a discoverable search API, and native HTTP QUERY support.",
+      "summary": "한 번의 토글로 사이트를 AI 에이전트가 검색할 수 있게 할 수 있다. 자동 콘텐츠 색인화, 검색 가능한 API, 네이티브 HTTP QUERY 지원이 포함된다.",
+      "summary_kind": "ai",
+      "title_ko": "에이전트를 위한 검색 소개"
+    }
+  ]
+}
